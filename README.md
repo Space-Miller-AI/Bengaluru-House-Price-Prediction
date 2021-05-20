@@ -57,11 +57,10 @@ The interesting thing of this project is that the data is really dirty and has m
 * The best model I got from optimization is Random Forest with a test score of 0.879
 * Every information about different performance metrics of default (model with default hyperparameters) and tuned models training is stored in Training Infos.csv file.
 
-| Model Name    | Test Score    | Training Score  | 
-| ------------- |:-------------:|:---------------:|
-| col 3 is      | right-aligned | $1600           |
-| col 2 is      | centered      |   $12           |
-| zebra stripes | are neat      |    $1           |
+| Model Name        | Deafult Model Test Score |Default Model Training Score | Default Model CV Score | Tuned Model Test Score | Tuned Model Training Score | Tuned Model CV Score | 
+|:-----------------:|:------------------------:|:---------------------------:|:----------------------:|:----------------------:|:--------------------------:|:---------------------:|
+|Linear Regression  |                          |                             |                        |                        |                            |                       |
+
 
 ## Other Used Techniques
 
