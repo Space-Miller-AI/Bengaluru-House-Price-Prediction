@@ -52,12 +52,18 @@ The interesting thing of this project is that the data is really dirty and has m
 
 ## Model Building and Tuning
 
+* The ML Estimators I trained are : Linear Regression, Random Forest and KNN.
+* Evaluated the models using R Squared, Adjusted R Squared, Mean Absolute Error, Mean Squared Error, Root Mean Squared Error. The performance metric used to select the best model is Adjusted R Squared.
+* When tuning the model using Cross Validation, I used sklearn pipeline including feature selection, feature scaling and hyperparameter tuning in order to avoid data leakage. So I tuned the nr of features and different hyperparameters in each fold of cross validation.
+* Hyperparameter Tuning  is done using RandomizedSearchCV.
+* I evaluated each ML model using training score, cross validation mean score, cross validation scores, test score to get a better understanding about the model performances. The best model is selected using the test score.
+* Every information about models training is stored in a csv file.
 
 ## Other Used Techniques
 
 * Object oriented programming is used to build this project in order to create modular and flexible code.
 * A retraining approach is implemented using Flask framework.
-* Using Logging every information about data cleaning und model training is stored is some txt files and csv files for example : the amount of missing values for each feature, the amount of records removed after dropping the missing values and outliers, the amount of at least frequent categories labeled with 'other' during encoding, the dropped constant features, highly correlated independent features, which features are dropping during handling multicolleniarity, best selected features etc.
+* Using Logging every information about data cleaning und model training is stored is some txt files and csv files for example : the amount of missing values for each feature, the amount of records removed after dropping the missing values and outliers, the amount of at least frequent categories labeled with 'other' during encoding, the dropped constant features, highly correlated independent features, which features are dropping during handling multicolleniarity, best selected features, model accuracies and errors etc.
 
 ## Demo
 Link: [https://flightfareprediction2.herokuapp.com/](https://flightfareprediction2.herokuapp.com/)
@@ -85,16 +91,41 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 
 ## Directory Tree 
 ```
-├── static 
-│   ├── css
-├── template
-│   ├── home.html
-├── Procfile
-├── README.md
-├── app.py
-├── flight_price.ipynb
-├── flight_rf.pkl
-├── requirements.txt
+ ├── Project Code PyCharm├── static 
+                             ├── css
+                                 ├── styles.css
+                         ├── templates
+                         │   ├── home.html
+                         ├── File_Operation
+                             ├── FileOperation.py
+                         ├── Functions
+                             ├── functions.py
+                         ├── Logs
+                             ├── DataPreprocessing_Log.txt
+                             ├── ModelTraining_Log.txt
+                             ├── Prediction_Log.txt
+                         ├── ModelTraining
+                             ├── trainingModel.py
+                         ├── Training_FileFromDB
+                             ├── dataset.csv
+                         ├── application_logging
+                             ├── logger.py
+                         ├── best_model_finder
+                             ├── modelTuning.py
+                         ├── data_ingestion
+                             ├── data_loader.py
+                         ├── data_preprocessing
+                             ├── preprocessing.py
+                         ├── models
+                             ├── RandomForestRegressor
+                                 ├── RandomForestRegressor.sav
+                         ├── app.py
+                         ├── encoded_features.json
+                         ├── model_infos.csv
+                         ├── multicolleniarity_heatmap.jpg
+                         ├── nan_values.csv
+                         ├── Training Infos.ipynb
+                         ├── requirements.txt
 ```
 
 ## Technologies Used
