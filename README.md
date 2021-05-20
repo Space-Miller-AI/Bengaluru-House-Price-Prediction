@@ -8,7 +8,7 @@
   * [Model Building and Tuning](#Model-Building-and-Tuning)
   * [Other used Techniques](#Other-Used-Techniques)
   * [Demo](#demo)
-  * [Run project in your local machine](#How-to-run-the-project-in-your-local-machine-?)
+  * [Run project in your local machine](#How-to-run-the-project-in-your-local-machine)
   * [Directory Tree](#directory-tree)
   * [Bug / Feature Request](#bug---feature-request)
   * [Future scope of project](#future-scope)
@@ -72,7 +72,8 @@ Link: [https://flightfareprediction2.herokuapp.com/](https://flightfarepredictio
 
 
 
-## How to run the project in your local machine ? 
+## How to run the project in your local machine 
+
 1. Clone the repository
 2. Open the project directory in PyCharm  and create a Python Interpreter using Conda Environment : Settings - Project : Project Code Pycharm - Python Interpreter - Add - Conda Environment - Select Python Version 3.6 - 
 3. Run the following command in the terminal to install the required packages and libraries : pip install -r requirements.txt
