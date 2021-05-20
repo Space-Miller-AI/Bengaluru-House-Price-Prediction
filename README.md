@@ -1,8 +1,8 @@
-# Banglore House Price Prediction: 
+# Bengaluru House Price Prediction: 
 
 ## Table of Content
+  * [Business Problem Statement](#overview)
   * [Demo](#demo)
-  * [Overview](#overview)
   * [Motivation](#motivation)
   * [Installation](#installation)
   * [Deployement on Heroku](#deployement-on-heroku)
@@ -11,6 +11,9 @@
   * [Future scope of project](#future-scope)
 
 
+## Overview
+Buying a home, especially in a city like Bengaluru, is a tricky choice. While the major factors are usually the same for all metros, there are others to be considered for the Silicon Valley of India. With its help millennial crowd, vibrant culture, great climate and a slew of job opportunities, it is difficult to ascertain the price of a house in Bengaluru.
+
 ## Demo
 Link: [https://flightfareprediction2.herokuapp.com/](https://flightfareprediction2.herokuapp.com/)
 
@@ -18,8 +21,6 @@ Link: [https://flightfareprediction2.herokuapp.com/](https://flightfarepredictio
 
 [![](https://i.imgur.com/p0aeL6c.png)](https://flightfareprediction2.herokuapp.com/)
 
-## Overview
-This is a Flask web app which predicts fare of Flight ticket.
 
 ## Motivation
 What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
