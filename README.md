@@ -54,7 +54,7 @@ The interesting thing of this project is that the data is really dirty and has m
 * When tuning the model using Cross Validation, I used sklearn pipeline including feature selection, feature scaling and hyperparameter tuning in order to avoid data leakage. So I tuned the nr of features and different hyperparameters in each fold of cross validation.
 * Hyperparameter Tuning  is done using RandomizedSearchCV.
 * I evaluated each ML model using training score, cross validation mean score, cross validation scores, test score to get a better understanding about the model performances. The best model is selected using the test score.
-* Every information about models training is stored in a csv file.
+* Every information about different performance metrics of default (model with default hyperparameters) and tuned models training is stored in a csv file.
 
 ## Other Used Techniques
 
