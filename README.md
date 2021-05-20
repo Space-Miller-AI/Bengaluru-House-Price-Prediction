@@ -1,7 +1,7 @@
 # Bengaluru House Price Prediction: 
 
 ## Table of Content
-  * [Business Problem Statement](# project overview)
+  * [Business Problem Statement](#project-overview)
   * [Demo](#demo)
   * [Motivation](#motivation)
   * [Installation](#installation)
