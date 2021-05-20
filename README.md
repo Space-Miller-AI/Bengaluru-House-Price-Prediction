@@ -22,6 +22,11 @@ Data Source : Kaggle.
 Link : https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 
 ## Used Libraries and Resources
+**Python Version** : 3.6
+
+**Libraries** : sklearn, pandas, numpy, matplotlib, seaborn, flask, json, pickle
+
+**References** : https://towardsdatascience.com/, https://machinelearningmastery.com/
 
 
 
