@@ -8,15 +8,14 @@
   * [Model Building and Tuning](#Model-Building-and-Tuning)
   * [Other used Techniques](#Other-Used-Techniques)
   * [Demo](#demo)
-  * [Run project in your local machine](#How-to-run-the-project-in-your-local-machine)
+  * [Run project in your local machine](#Run-the-project-in-your-local-machine)
   * [Directory Tree](#directory-tree)
   * [Bug / Feature Request](#bug---feature-request)
   * [Future scope of project](#future-scope)
 
 
 ## Business Problem Statement
-Buying a home, especially in a city like Bengaluru, is a tricky choice. While the major factors are usually the same for all metros, there are others to be considered for the Silicon Valley of India. With its help millennial crowd, vibrant culture, great climate and a slew of job opportunities, it is difficult to ascertain the price of a house in Bengaluru. As a result, this projects consists of predicting the house prices in Bengaluru, India using a dataset of more than 10000 records. Object oriented programming is used to build this project
-
+Buying a home, especially in a city like Bengaluru, is a tricky choice. While the major factors are usually the same for all metros, there are others to be considered for the Silicon Valley of India. With its help millennial crowd, vibrant culture, great climate and a slew of job opportunities, it is difficult to ascertain the price of a house in Bengaluru. As a result, this projects consists of predicting the house prices in Bengaluru, India using a dataset of more than 10000 records.
 ## Data
 Data Source : Kaggle.
 
@@ -72,7 +71,7 @@ Link: [https://flightfareprediction2.herokuapp.com/](https://flightfarepredictio
 
 
 
-## How to run the project in your local machine 
+## Run the project in your local machine 
 
 1. Clone the repository
 2. Open the project directory in PyCharm  and create a Python Interpreter using Conda Environment : Settings - Project : Project Code Pycharm - Python Interpreter - Add - Conda Environment - Select Python Version 3.6 - 
