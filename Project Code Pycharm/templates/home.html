@@ -1,0 +1,192 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Price Prediction</title>
+
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/styles.css">
+
+
+</head>
+
+<body>
+
+    <!-- As a heading -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">REAL ESTATE PRICE PREDICTION</a>
+            </div>
+        </div>
+    </nav>
+
+    <br><br><br>
+
+
+    <div class="container">
+
+
+
+        <form action="\predict" method="post">
+
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Total Sqft</h5>
+                            <!-- TOTAL SQFT -->
+                            <input type="text" name="total_sqft" id="total_sqft" required="required">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Balcony</h5>
+                            <!-- BALCONY -->
+                            <input type="number" name="balcony" id="balcony" required="required">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- SOCIETY -->
+                            <h5 class="card-title">Society</h5>
+                            <select name="society" id="society" required="required">
+                                <option value="Bhe 2ko">Bhe 2ko</option>
+                                <option value="Bhmesy">Bhmesy</option>
+                                <option value="GMown E">GMown E</option>
+                                <option value="GrrvaGr">GrrvaGr</option>
+
+                                <option value="IBityin">IBityin</option>
+                                <option value="PrarePa">PrarePa</option>
+                                <option value="Prarkun">Prarkun</option>
+                                <option value="PrityTr">PrityTr</option>
+
+                                <option value="Prityel">Prityel</option>
+                                <option value="Prtanha">Prtanha</option>
+                                <option value="Prtates">Prtates</option>
+                                <option value="Rosha I">Rosha I</option>
+
+                                <option value="SNity S">SNity S</option>
+                                <option value="Soitya ">Soitya </option>
+                                <option value="Soresea">Soresea</option>
+                                <option value="Sryalan">Sryalan</option>
+
+                                <option value="SunceEs">SunceEs</option>
+                                <option value="other">other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Area Type</h5>
+                            <!-- Area Type-->
+                            <select name="area_type" id="area_type" required="required">
+                                <option value="Super built-up Area">Super built-up Area</option>
+                                <option value="Plot Area">Plot Area</option>
+                                <option value="Built-up Area">Built-up Area</option>
+                                <option value="Carpet Area">Carpet Area</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Location</h5>
+                            <!-- LOCATION -->
+                            <select name="location" required="required">
+                                <option value="Bannerghatta Road">Bannerghatta Road</option>
+                                <option value="Bellandur">Bellandur</option>
+                                <option value="Chandapura">Chandapura</option>
+                                <option value="Electronic City">Electronic City</option>
+                                <option value="Electronic City Phase II">Electronic City Phase II</option>
+                                <option value="Electronics City Phase 1">Electronics City Phase 1</option>
+                                <option value="Haralur Road">Haralur Road</option>
+                                <option value="Hebbal">Hebbal</option>
+                                <option value="Hennur Road">Hennur Road</option>
+                                <option value="Hoodi">Hoodi</option>
+                                <option value="Kanakpura Road">Kanakpura Road</option>
+                                <option value="Marathahalli">Marathahalli</option>
+                                <option value="Raja Rajeshwari Nagar">Raja Rajeshwari Nagar</option>
+                                <option value="Rajaji Nagar">Rajaji Nagar</option>
+                                <option value="Sarjapur  Road">Sarjapur  Road</option>
+                                <option value="Thanisandra">Thanisandra</option>
+                                <option value="Uttarahalli">Uttarahalli</option>
+                                <option value="Whitefield">Whitefield</option>
+                                <option value="Yelahanka">Yelahanka</option>
+                                <option value="other">other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <br>
+            <br>
+            <br>
+            <!-- Submit -->
+            <input type="submit" value="Submit" class="btn btn-secondary">
+        </form>
+
+        <br>
+        <br>
+        <h3>{{ prediction_text }}</h3>
+
+        <br>
+        <br>
+        <p>©2021 LORENC ZHUKA</p>
+
+    </div>
+
+
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

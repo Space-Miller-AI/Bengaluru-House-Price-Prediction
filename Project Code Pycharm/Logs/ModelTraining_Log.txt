@@ -1,0 +1,138 @@
+2021-05-20/11:32:37		Entered the function best_model_OutOfManyModels_RandomizedSearchCV.
+2021-05-20/11:32:37		Entered function best_single_model_RandomizedSearchCV. 
+2021-05-20/11:32:37		Entered function evaluate_model_cross_validation.
+2021-05-20/11:32:41		Function evaluate_model_cross_validation Completed Successfully.Exited this function.
+2021-05-20/11:32:41		Entered the function train_model
+2021-05-20/11:32:42		Function train_model Completed Successfully! Exited this function.
+2021-05-20/11:32:42		Default LinearRegression Model Performance on TEST SET : 
+2021-05-20/11:32:42		Entered function evaluate_model_regression.
+2021-05-20/11:32:42		R Squared : 0.7890791160469353
+2021-05-20/11:32:42		Adj R Squared : 0.7890791160469353
+2021-05-20/11:32:42		MSE : 910.3298173257125
+2021-05-20/11:32:42		MAE : 20.948699893548483
+2021-05-20/11:32:42		Square Root MSE : 30.171672431698454
+2021-05-20/11:32:42		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:32:42		Default LinearRegression Model Performance on TRAINING SET : 
+2021-05-20/11:32:42		Entered function evaluate_model_regression.
+2021-05-20/11:32:42		R Squared : 0.7833465172006444
+2021-05-20/11:32:42		Adj R Squared : 0.7833465172006444
+2021-05-20/11:32:42		MSE : 935.2162521703239
+2021-05-20/11:32:42		MAE : 20.651805918832977
+2021-05-20/11:32:42		Square Root MSE : 30.581305599505132
+2021-05-20/11:32:42		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:32:42		Entered the function HyperparameterTuning_RandomizedSearchCV.
+2021-05-20/11:32:48		Function HyperparameterTuning_RandomizedSearchCV Completed Successfully! Exited this function.
+2021-05-20/11:32:48		Entered function evaluate_model_cross_validation.
+2021-05-20/11:32:49		Function evaluate_model_cross_validation Completed Successfully.Exited this function.
+2021-05-20/11:32:49		Entered the function train_model
+2021-05-20/11:32:50		Function train_model Completed Successfully! Exited this function.
+2021-05-20/11:32:50		Tuned Model LinearRegression Performance on TEST SET : 
+2021-05-20/11:32:50		Entered function evaluate_model_regression.
+2021-05-20/11:32:50		R Squared : 0.7890791160469353
+2021-05-20/11:32:50		Adj R Squared : 0.7890791160469353
+2021-05-20/11:32:50		MSE : 910.3298173257125
+2021-05-20/11:32:50		MAE : 20.948699893548483
+2021-05-20/11:32:50		Square Root MSE : 30.171672431698454
+2021-05-20/11:32:50		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:32:50		Tuned Model LinearRegression Performance on TRAINING SET : 
+2021-05-20/11:32:50		Entered function evaluate_model_regression.
+2021-05-20/11:32:51		R Squared : 0.7833465172006444
+2021-05-20/11:32:51		Adj R Squared : 0.7833465172006444
+2021-05-20/11:32:51		MSE : 935.2162521703239
+2021-05-20/11:32:51		MAE : 20.651805918832977
+2021-05-20/11:32:51		Square Root MSE : 30.581305599505132
+2021-05-20/11:32:51		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:32:51		Function best_single_model_RandomizedSearchCV Completed Successfully. Exited this function.
+2021-05-20/11:32:51		Entered function best_single_model_RandomizedSearchCV. 
+2021-05-20/11:32:51		Entered function evaluate_model_cross_validation.
+2021-05-20/11:32:55		Function evaluate_model_cross_validation Completed Successfully.Exited this function.
+2021-05-20/11:32:55		Entered the function train_model
+2021-05-20/11:32:59		Function train_model Completed Successfully! Exited this function.
+2021-05-20/11:32:59		Default RandomForestRegressor Model Performance on TEST SET : 
+2021-05-20/11:32:59		Entered function evaluate_model_regression.
+2021-05-20/11:32:59		R Squared : 0.8794659215179464
+2021-05-20/11:32:59		Adj R Squared : 0.8794659215179464
+2021-05-20/11:32:59		MSE : 520.222386658059
+2021-05-20/11:32:59		MAE : 14.472131371535209
+2021-05-20/11:32:59		Square Root MSE : 22.80838413079846
+2021-05-20/11:32:59		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:32:59		Default RandomForestRegressor Model Performance on TRAINING SET : 
+2021-05-20/11:32:59		Entered function evaluate_model_regression.
+2021-05-20/11:33:00		R Squared : 0.9700330525230769
+2021-05-20/11:33:00		Adj R Squared : 0.9700330525230769
+2021-05-20/11:33:00		MSE : 129.35668490641172
+2021-05-20/11:33:00		MAE : 6.9005790908325935
+2021-05-20/11:33:00		Square Root MSE : 11.373508029909317
+2021-05-20/11:33:00		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:33:00		Entered the function HyperparameterTuning_RandomizedSearchCV.
+2021-05-20/11:41:11		Function HyperparameterTuning_RandomizedSearchCV Completed Successfully! Exited this function.
+2021-05-20/11:41:11		Entered function evaluate_model_cross_validation.
+2021-05-20/11:41:14		Function evaluate_model_cross_validation Completed Successfully.Exited this function.
+2021-05-20/11:41:14		Entered the function train_model
+2021-05-20/11:41:18		Function train_model Completed Successfully! Exited this function.
+2021-05-20/11:41:18		Tuned Model RandomForestRegressor Performance on TEST SET : 
+2021-05-20/11:41:18		Entered function evaluate_model_regression.
+2021-05-20/11:41:18		R Squared : 0.879376974273469
+2021-05-20/11:41:18		Adj R Squared : 0.879376974273469
+2021-05-20/11:41:18		MSE : 520.6062809756785
+2021-05-20/11:41:18		MAE : 15.566195813071806
+2021-05-20/11:41:18		Square Root MSE : 22.816798219199786
+2021-05-20/11:41:18		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:41:18		Tuned Model RandomForestRegressor Performance on TRAINING SET : 
+2021-05-20/11:41:18		Entered function evaluate_model_regression.
+2021-05-20/11:41:18		R Squared : 0.9119615217373087
+2021-05-20/11:41:18		Adj R Squared : 0.9119615217373087
+2021-05-20/11:41:18		MSE : 380.0308890665917
+2021-05-20/11:41:18		MAE : 13.790303280953207
+2021-05-20/11:41:18		Square Root MSE : 19.494380961358885
+2021-05-20/11:41:18		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:41:18		Function best_single_model_RandomizedSearchCV Completed Successfully. Exited this function.
+2021-05-20/11:41:18		Entered function best_single_model_RandomizedSearchCV. 
+2021-05-20/11:41:18		Entered function evaluate_model_cross_validation.
+2021-05-20/11:41:20		Function evaluate_model_cross_validation Completed Successfully.Exited this function.
+2021-05-20/11:41:20		Entered the function train_model
+2021-05-20/11:41:22		Function train_model Completed Successfully! Exited this function.
+2021-05-20/11:41:22		Default KNeighborsRegressor Model Performance on TEST SET : 
+2021-05-20/11:41:22		Entered function evaluate_model_regression.
+2021-05-20/11:41:22		R Squared : 0.8514290858655127
+2021-05-20/11:41:22		Adj R Squared : 0.8514290858655127
+2021-05-20/11:41:22		MSE : 641.2287422143467
+2021-05-20/11:41:22		MAE : 16.318882152006832
+2021-05-20/11:41:22		Square Root MSE : 25.322494786540023
+2021-05-20/11:41:22		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:41:22		Default KNeighborsRegressor Model Performance on TRAINING SET : 
+2021-05-20/11:41:22		Entered function evaluate_model_regression.
+2021-05-20/11:41:23		R Squared : 0.88614193362185
+2021-05-20/11:41:23		Adj R Squared : 0.88614193362185
+2021-05-20/11:41:23		MSE : 491.4848944115385
+2021-05-20/11:41:23		MAE : 13.205609401709403
+2021-05-20/11:41:23		Square Root MSE : 22.169458595363544
+2021-05-20/11:41:23		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:41:23		Entered the function HyperparameterTuning_RandomizedSearchCV.
+2021-05-20/11:41:55		Function HyperparameterTuning_RandomizedSearchCV Completed Successfully! Exited this function.
+2021-05-20/11:41:55		Entered function evaluate_model_cross_validation.
+2021-05-20/11:41:56		Function evaluate_model_cross_validation Completed Successfully.Exited this function.
+2021-05-20/11:41:56		Entered the function train_model
+2021-05-20/11:41:58		Function train_model Completed Successfully! Exited this function.
+2021-05-20/11:41:58		Tuned Model KNeighborsRegressor Performance on TEST SET : 
+2021-05-20/11:41:58		Entered function evaluate_model_regression.
+2021-05-20/11:41:58		R Squared : 0.8503903376625649
+2021-05-20/11:41:58		Adj R Squared : 0.8503903376625649
+2021-05-20/11:41:58		MSE : 645.7119562238582
+2021-05-20/11:41:58		MAE : 15.893571173694237
+2021-05-20/11:41:58		Square Root MSE : 25.410862957087037
+2021-05-20/11:41:58		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:41:58		Tuned Model KNeighborsRegressor Performance on TRAINING SET : 
+2021-05-20/11:41:58		Entered function evaluate_model_regression.
+2021-05-20/11:41:59		R Squared : 0.9823535732749242
+2021-05-20/11:41:59		Adj R Squared : 0.9823535732749242
+2021-05-20/11:41:59		MSE : 76.17336611803887
+2021-05-20/11:41:59		MAE : 3.6066535092335923
+2021-05-20/11:41:59		Square Root MSE : 8.727735451882056
+2021-05-20/11:41:59		Function evaluate_model_regression COmpleted Successfully. Exited this function
+2021-05-20/11:41:59		Function best_single_model_RandomizedSearchCV Completed Successfully. Exited this function.
+2021-05-20/11:41:59		Function best_model_OutOfManyModels_RandomizedSearchCV Completed Successfully. Exited this function.
+2021-05-20/11:41:59		Best Model Name : RandomForestRegressor. Best Test Score : 0.8794659215179464
+2021-05-20/11:41:59		Entered function save_model of File_Operations class.
+2021-05-20/11:41:59		Function save_model of File_operations class Completed Successfully. Exited this function.
+2021-05-20/11:41:59		Successful End of Training!

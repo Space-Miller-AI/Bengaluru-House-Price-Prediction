@@ -1,0 +1,58 @@
+2021-05-20/11:32:30		Start Preprocessing and Training
+2021-05-20/11:32:30		Entered the function get_data of class Data_Getter.
+2021-05-20/11:32:30		Function get_data of class Data_Getter Completed Successfully. Exited this function
+2021-05-20/11:32:30		Entered the function remove_columns of the Preprocessor class
+2021-05-20/11:32:30		Function remove_columns of class Preprocessor Completed Successfully. Exited this function.
+2021-05-20/11:32:30		Entered function check_for_missing_values of Preprocessor class.
+2021-05-20/11:32:30		Function check_for_missing_values of Preprocessor class Completed Successfully. Exited this function.
+2021-05-20/11:32:30		Entered the function drop_missing_values of Preprocessor class.
+2021-05-20/11:32:30		Nr of rows removed after dropping missing values : 610
+2021-05-20/11:32:30		Function drop_missing_values of Preprocessor class Completed Succesfully. Exited this function.
+2021-05-20/11:32:30		Entered function fill_nan_missing_string of Preprocessor class.
+2021-05-20/11:32:30		Function fill_nan_missing_string of Preprocessor class Completed Successfully. Exited this function.
+2021-05-20/11:32:30		Entered function encode_categorical_features of Preprocessor class.
+2021-05-20/11:32:30		Entered function reduce_categories of Preprocessor class.
+2021-05-20/11:32:30		Nr of categories (low frequency categories) labeled with 'other' : 2573 out of total 2593
+2021-05-20/11:32:30		Nr of categories not labeled with 'other' : 20
+2021-05-20/11:32:30		Function reduce_categories of Preprocessor class Completed Successfully. Exited this function.
+2021-05-20/11:32:30		Entered the function remove_columns of the Preprocessor class
+2021-05-20/11:32:30		Function remove_columns of class Preprocessor Completed Successfully. Exited this function.
+2021-05-20/11:32:30		Entered function reduce_categories of Preprocessor class.
+2021-05-20/11:32:31		Nr of categories (low frequency categories) labeled with 'other' : 1245 out of total 1265
+2021-05-20/11:32:31		Nr of categories not labeled with 'other' : 20
+2021-05-20/11:32:31		Function reduce_categories of Preprocessor class Completed Successfully. Exited this function.
+2021-05-20/11:32:31		Function encode_categorical_features of Preprocessor class Completed Successfully. Exited this function.
+2021-05-20/11:32:31		Entered function handling_outliers of Preprocessor class.
+2021-05-20/11:32:31		Nr of rows dropped after removing all houses where sqft per 1 bedroom is less than 300 : 659
+2021-05-20/11:32:31		Entered function remove_pps_outliers of Preprocessor class.
+2021-05-20/11:32:31		Function remove_pps_outliers of Preprocessor class Completed Successfully. Exited this function.
+2021-05-20/11:32:31		Nr of rows dropped after removing all houses per location where price per sqft is greater than mean + 1std or less than mean - 1std : 1450
+2021-05-20/11:32:31		Entered function remove_bhk_outliers of Preprocessor class. 
+2021-05-20/11:32:31		Function remove_bhk_outliers of Preprocessor class Completed Successfully. Exited this function.
+2021-05-20/11:32:31		Nr of rows dropped after removing all houses where price total price of x+1 BHK is greater than prices of houses with x BHK for same total sqft: 4692
+2021-05-20/11:32:31		Nr of rows dropped after removing all houses where nr of bathrooms is greater than 2 + nr of bedroom : 58
+2021-05-20/11:32:31		Entered the function remove_columns of the Preprocessor class
+2021-05-20/11:32:31		Function remove_columns of class Preprocessor Completed Successfully. Exited this function.
+2021-05-20/11:32:31		Function remove_outliers of Preprocessor class Completed Successfully. Exited this function.
+2021-05-20/11:32:31		Entered the function separate_features_label of class Preprocessor.
+2021-05-20/11:32:31		Function separate_features_label of class Preprocessor Completed Succesfully. Exited this function.
+2021-05-20/11:32:31		Entered the function train_test_splitting of Preprocessor class.
+2021-05-20/11:32:31		Function train_test_splitting of Preprocessor class Completed Successfully. Exited this function.
+2021-05-20/11:32:31		Entered function gaussian_transformation of Preprocessor class.
+2021-05-20/11:32:31		Function gaussian_transformation  of Preprocessor class. Completed Successfully. Exited this function.
+2021-05-20/11:32:31		Entered function dropping_constant_features of Preprocessor class. 
+2021-05-20/11:32:31		Features with variance=0 : ['society_Dhalsh ']. Amount : 1 out of 47 total features
+2021-05-20/11:32:31		Function dropping_constant_features of Preprocessor class Completed Successfully. Exited this functiin.
+2021-05-20/11:32:31		Entered function multicolleniarity of Preprocessor class.
+2021-05-20/11:32:36		Function multicolleniarity Completed Successfully. Exited this function.
+2021-05-20/11:32:36		Entered function detect_multicolleniarity of Preprocessor class. 
+2021-05-20/11:32:36		High correlated indepedent features are : {('bath', 'total_sqft', 0.8211028258228379), ('society_other', 'society_Missing', -0.7929588815405435), ('bhk', 'total_sqft', 0.7934672438226715), ('bhk', 'bath', 0.865697639994785)}
+2021-05-20/11:32:36		Functiondetect_multicolleniarity of Preproccessor class Completed Successfully. Exited this function.
+2021-05-20/11:32:36		Enterd function remove_correlated_independent_features of Preprocessor class.
+2021-05-20/11:32:36		Feature with Highest Correlation with Target : total_sqft
+2021-05-20/11:32:36		Features to remove : ['bath', 'bhk']
+2021-05-20/11:32:36		Function remove_correlated_independent_features of Preprocessor class Completed Successfully. Exited this function
+2021-05-20/11:32:36		Enterd function remove_correlated_independent_features of Preprocessor class.
+2021-05-20/11:32:37		Feature with Highest Correlation with Target : society_other
+2021-05-20/11:32:37		Features to remove : ['society_Missing']
+2021-05-20/11:32:37		Function remove_correlated_independent_features of Preprocessor class Completed Successfully. Exited this function
