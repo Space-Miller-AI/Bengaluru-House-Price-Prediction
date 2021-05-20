@@ -17,8 +17,8 @@ Buying a home, especially in a city like Bengaluru, is a tricky choice. While th
 
 ## Data
 Data Source : Kaggle.
-Link : https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 
+Link : https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 
 
 
