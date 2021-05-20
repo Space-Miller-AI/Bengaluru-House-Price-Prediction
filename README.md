@@ -55,6 +55,10 @@ The interesting thing of this project is that the data is really dirty and has m
 
 ## Other Used Techniques
 
+* Object oriented programming is used to build this project in order to create modular and flexible code.
+* A retraining approach is implemented using Flask framework.
+* Using Logging every information about data cleaning und model training is stored is some txt files and csv files for example : the amount of missing values for each feature, the amount of records removed after dropping the missing values and outliers, the amount of at least frequent categories labeled with 'other' during encoding, the dropped constant features, highly correlated independent features, which features are dropping during handling multicolleniarity, best selected features etc.
+
 ## Demo
 Link: [https://flightfareprediction2.herokuapp.com/](https://flightfareprediction2.herokuapp.com/)
 
