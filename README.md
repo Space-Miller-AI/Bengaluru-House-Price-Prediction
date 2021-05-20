@@ -1,7 +1,7 @@
 # Bengaluru House Price Prediction: 
 
 ## Table of Content
-  * [Business Problem Statement](#overview)
+  * [Business Problem Statement](#Business Problem Statement)
   * [Demo](#demo)
   * [Motivation](#motivation)
   * [Installation](#installation)
@@ -11,7 +11,7 @@
   * [Future scope of project](#future-scope)
 
 
-## Overview
+## Business Problem Statement
 Buying a home, especially in a city like Bengaluru, is a tricky choice. While the major factors are usually the same for all metros, there are others to be considered for the Silicon Valley of India. With its help millennial crowd, vibrant culture, great climate and a slew of job opportunities, it is difficult to ascertain the price of a house in Bengaluru.
 
 ## Demo
