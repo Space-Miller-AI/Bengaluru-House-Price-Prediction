@@ -126,6 +126,6 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 ## Future Scope
 
-* Use multiple Algorithms
-* Optimize Flask app.py
-* Front-End 
+* Use other ML Estimators
+* Try other feature engineering approaches to get a possible higher model performance
+* Optimize Flask app.py Front End
