@@ -1,4 +1,4 @@
-# Flight Fare Prediction: 
+# Banglore House Price Prediction: 
 
 ## Table of Content
   * [Demo](#demo)
