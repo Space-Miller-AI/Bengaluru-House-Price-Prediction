@@ -5,6 +5,8 @@
   * [Data](#Data)
   * [Used Libraries and Resources](#Used-Libraries-and-Resources)
   * [Data Cleaning](#Data-Cleaning)
+  * [Model Building and Tuning](#Model-Building-and-Tuning)
+   * [Other used Techniques](#Other-Used-Techniques)
   * [Demo](#demo)
   * [Motivation](#motivation)
   * [Installation](#installation)
@@ -48,7 +50,10 @@ The interesting thing of this project is that the data is really dirty and has m
 * Feature Selection and Feature Scaling is performed together with the hyperparameter tuning using sklearn pipelines in order to avoid data leakage.
 
 
+## Model Building and Tuning
 
+
+## Other Used Techniques
 
 ## Demo
 Link: [https://flightfareprediction2.herokuapp.com/](https://flightfareprediction2.herokuapp.com/)
