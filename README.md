@@ -64,6 +64,9 @@ The interesting thing of this project is that the data is really dirty and has m
 
 ## Demo
 
+This is how the web application looks like : 
+
+
 ![alt text](https://github.com/Lori10/Banglore-House-Price-Prediction/blob/master/Project%20Code%20Pycharm/demo_image.jpg "Image")
 
 
