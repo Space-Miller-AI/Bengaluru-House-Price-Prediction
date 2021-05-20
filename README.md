@@ -63,11 +63,8 @@ The interesting thing of this project is that the data is really dirty and has m
 * Using Logging every information about data cleaning und model training is stored is some txt files and csv files for example : the amount of missing values for each feature, the amount of records removed after dropping the missing values and outliers, the amount of at least frequent categories labeled with 'other' during encoding, the dropped constant features, highly correlated independent features, which features are dropping during handling multicolleniarity, best selected features, model accuracies and errors etc.
 
 ## Demo
-Link: [https://flightfareprediction2.herokuapp.com/](https://flightfareprediction2.herokuapp.com/)
 
-[![](https://i.imgur.com/R1g2wvC.png)](https://flightfareprediction2.herokuapp.com/)
-
-[![](https://i.imgur.com/p0aeL6c.png)](https://flightfareprediction2.herokuapp.com/)
+![alt text](https://github.com/Lori10/Banglore-House-Price-Prediction/blob/master/Project%20Code%20Pycharm/demo_image.jpg "Image")
 
 
 
