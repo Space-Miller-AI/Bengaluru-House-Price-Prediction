@@ -61,7 +61,7 @@ The interesting thing of this project is that the data is really dirty and has m
 |:-----------------:|:------------------------:|:---------------------------:|:----------------------:|:----------------------:|:--------------------------:|:---------------------:|
 |Linear Regression  |     0.7891               |     0.7833                  |         0.7800         |      0.7891            |           0.7833           |     0.7800             |
 |Random Forest      |     0.8794               |     0.9700                  |         0.8758         |      0.8793            |           0.7833           |     0.8792            |
-|KNN                |     0.8514               |     0.8861                  |         0.8105         |      0.8504            |           0.9824           |  0.8248            c |
+|KNN                |     0.8514               |     0.8861                  |         0.8105         |      0.8504            |           0.9824           |  0.8248              |
 
 
 ## Other Used Techniques
@@ -82,7 +82,7 @@ This is how the web application looks like :
 ## Run the project in your local machine 
 
 1. Clone the repository
-2. Open the project directory (PyCharm Project Code foler) in PyCharm  and create a Python Interpreter using Conda Environment : Settings - Project : Project Code Pycharm - Python Interpreter - Add - Conda Environment - Select Python Version 3.6 - 
+2. Open the project directory (PyCharm Project Code folder) in PyCharm  and create a Python Interpreter using Conda Environment : Settings - Project : Project Code Pycharm - Python Interpreter - Add - Conda Environment - Select Python Version 3.6 - 
 3. Run the following command in the terminal to install the required packages and libraries : pip install -r requirements.txt
 4. Run the file app.py by clicking Run and open the API that shows up in the bottom of terminal.
 
