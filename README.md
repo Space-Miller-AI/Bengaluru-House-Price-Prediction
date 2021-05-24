@@ -56,6 +56,7 @@ The interesting thing of this project is that the data is really dirty and has m
 * I evaluated each ML model using training score, cross validation mean score, cross validation scores, test score to get a better understanding about the model performances. The best model is selected using the test score.
 * The best model I got from optimization is Random Forest with a test score of 0.879
 * Every information about different performance metrics of default (model with default hyperparameters) and tuned models training is stored in Training Infos.csv file.
+* In LinearRegression we do not expect any model improvement since there is no need to tune LinearRegression model. There is small increase in the cross validation score of RandomForest and KNN. But since the training score of KNN after tuning is around 98.2% it may overfit.
 
 | Model Name        | Deafult Model Test Score |Default Model Training Score | Default Model CV Score | Tuned Model Test Score | Tuned Model Training Score | Tuned Model CV Score | 
 |:-----------------:|:------------------------:|:---------------------------:|:----------------------:|:----------------------:|:--------------------------:|:---------------------:|
