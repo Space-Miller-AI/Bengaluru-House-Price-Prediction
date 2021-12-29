@@ -4,7 +4,7 @@
   * [Business Problem Statement](#Business-Problem-Statement)
   * [Data](#Data)
   * [Used Libraries and Resources](#Used-Libraries-and-Resources)
-  * [Data Cleaning](#Data-Cleaning)
+  * [Data Preprocessing](#Data-Preprocessing)
   * [Model Building and Tuning](#Model-Building-and-Tuning)
   * [Other used Techniques](#Other-Used-Techniques)
   * [Demo](#demo)
@@ -29,7 +29,7 @@ Link : https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 **References** : https://towardsdatascience.com/, https://machinelearningmastery.com/
 
 
-## Data Cleaning
+## Data Preprocessing
 The interesting thing of this project is that the data is really dirty and has many outliers. So it needs to do a lot of feature engineering to prepare for a machine learning model. I made the following changes :
 
 * Based on domain knowledge I removed columns which are not relevant for prediction.
