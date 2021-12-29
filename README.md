@@ -44,8 +44,8 @@ The interesting thing of this project is that the data is really dirty and has m
 * Since one of the ML estimators I trained is Linear Regression which assumes that the features are normally distributed, I applied some Gaussian transformation techniques on some features to convert them into normally distributed features.
 * Features with variance=0 (constant features) are dropped since they do not give any useful information about the target variable.
 * Since one of the ML estimators I trained is Linear Regression I handled multicolleniarity by dropping independent features (redundant features) that are highly correlated with each other.
-* Feature scaling is performed since Linear Regression works well when the features are scaled.
-* Feature Selection is performed in order to only select the best features.
+* Feature scaling using StandardScaler is performed since Linear Regression works well when the features are scaled.
+* Feature Selection using SelectKBest is performed in order to only select the k best features.
 * Feature Selection and Feature Scaling is performed together with the hyperparameter tuning using sklearn pipelines in order to avoid data leakage (overfitting).
 
 
