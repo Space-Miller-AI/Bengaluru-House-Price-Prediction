@@ -30,7 +30,7 @@ Link : https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 
 
 ## Data Preprocessing
-The interesting thing of this project is that the data is really dirty and has many outliers. So it needs to do a lot of feature engineering to prepare for a machine learning model. I made the following changes :
+The interesting thing of this project is that the data is really dirty and has many outliers. So it needs a lot of feature engineering to prepare for a machine learning model. I made the following changes :
 
 * Based on domain knowledge I removed columns which are not relevant for prediction.
 * Removed the missing values in columns where the percentage of missing values was very small while in other columns I labeled them with the string 'Missing'.
@@ -41,10 +41,12 @@ The interesting thing of this project is that the data is really dirty and has m
 * Outlier Removal 2: Based on business logic I removed all houses where price per sqft per location is greater than mean + 1 std and less than mean - 1 std.
 * Outlier Removal 3: Based on business logic I removed all houses where total price of x+1 BHK is greater than prices of houses with x BHK for same total sqft.
 * Outlier Removal 4: Based on business logic I removed all houses where nr of bathrooms is greater than 2 + nr of bedroom.
-* Since one of the ML estimators I trained is Linear Regression, I applied some Gaussian transformation techniques on some features to convert them into normally distributed features.
+* Since one of the ML estimators I trained is Linear Regression which assumes that the features are normally distributed, I applied some Gaussian transformation techniques on some features to convert them into normally distributed features.
 * Features with variance=0 (constant features) are dropped since they do not give any useful information about the target variable.
 * Since one of the ML estimators I trained is Linear Regression I handled multicolleniarity by dropping independent features (redundant features) that are highly correlated with each other.
-* Feature Selection and Feature Scaling is performed together with the hyperparameter tuning using sklearn pipelines in order to avoid data leakage.
+* Feature scaling is performed since Linear Regression works well when the features are scaled.
+* Feature Selection is performed in order to only select the best features.
+* Feature Selection and Feature Scaling is performed together with the hyperparameter tuning using sklearn pipelines in order to avoid data leakage (overfitting).
 
 
 ## Model Building and Tuning
