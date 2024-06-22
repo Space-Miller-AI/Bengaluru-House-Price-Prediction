@@ -71,6 +71,7 @@ The interesting thing of this project is that the data is really dirty and has m
 |KNN                |     0.8514               |     0.8861                  |         0.8105         |      0.8504            |           0.9824           |  0.8248              |
 
 
+
 ## Other Used Techniques
 
 * Object oriented programming is used to build this project in order to create modular and flexible code.
